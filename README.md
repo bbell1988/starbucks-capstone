@@ -1,4 +1,5 @@
 # Starbucks Capstone Challenge
+
 Project in Data Scientist Nanodegree of Udacity
 
 ### Table of Contents
@@ -82,3 +83,5 @@ Here is the schema and explanation of each variable in the files:
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
 Starbucks
+
+
