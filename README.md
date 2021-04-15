@@ -12,17 +12,19 @@ Project in Data Scientist Nanodegree of Udacity
 
 ## Installation <a name="installation"></a>
 
-There should be no necessary libraries to run the code here beyond the Anaconda distribution of Python.  The code should run with no issues using Python versions 3.*.
+The libraries used in this study are pandas, numpy, matplotlib, seaborn, math, json, datetime, and sklearn. The code should run with no issues using Python 3.
+
 
 ## Project Motivation<a name="motivation"></a>
 
-This is for the Data Scientist nanodegree program. 
+This is for the Data Scientist Nanodegree program. 
 
 We are interested to answer the following questions:
-1. What demographic group is most likely to respond to the offer?
-2. What offers have the greatest response rates?
-3. Will a customer respond to an offer or not?
+1. How does age, income, sex, and membership duration affect the percentage of offers completed?
+2. How does reward amount and difficulty amount affect the percentage of offers completed
+3. What offer has the highest percentage of offer completions?
 
+A machine learning model will also be created to predict whether a customer will complete an offer or not.
 
 Introduction¶
 This data set contains simulated data that mimics customer behavior on the Starbucks rewards mobile app. Once every few days, Starbucks sends out an offer to users of the mobile app. An offer can be merely an advertisement for a drink or an actual offer such as a discount or BOGO (buy one get one free). Some users might not receive any offer during certain weeks.
@@ -80,8 +82,15 @@ Here is the schema and explanation of each variable in the files:
 
 ## Results<a name="results"></a>
 
+1. The percentage of offers completed is positively correlated to the age of the customers.
+2. The percentage of offers completed is positively correlated to the income of the customers.
+3. Up until a certain point, the percentage of offers completed is positively correlated to the duration of a customer's membership. However, after approximately 1100 days, the percentage of offers completed has no longer shows any correlation.
+4. Females complete offers at a higher rate than their male counterparts.
+5. Customers completed the highest percentage of offers with a reward of \\$3. Offers with rewards of \\$5 or \\$10 were completed the least.
+6. Customers were also least likely to complete offers with higher difficulty. The sweet spot was \\$7, which has the highest percentage of offer completions
+
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
-Starbucks
+Thanks to Udacity and Starbucks for the capstone project
 
 
