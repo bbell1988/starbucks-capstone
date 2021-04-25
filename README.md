@@ -79,6 +79,13 @@ Here is the schema and explanation of each variable in the files:
 - time (int) - time in hours since the start of the test. The data begins at time t=0
 - value - (dict of strings) - either an offer id or transaction amount depending on the record
 
+## Conclusions<a name='conclusions'></a>
+1. The percentage of offers completed is positively correlated to the age of the customers.
+2. The percentage of offers completed is positively correlated to the income of the customers.
+3. Up until a certain point, the percentage of offers completed is positively correlated to the duration of a customer's membership. However, after approximately 1100 days, the percentage of offers completed has no longer shows any correlation.
+4. Females complete offers at a higher rate than their male counterparts.
+5. Customers completed the highest percentage of offers with a reward of \\$3. Offers with rewards of \\$5 or \\$10 were completed the least.
+6. Customers were also least likely to complete offers with higher difficulty. The sweet spot was \\$7, which has the highest percentage of offer completions
 
 ## Results<a name="results"></a>
 
