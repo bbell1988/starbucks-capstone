@@ -14,7 +14,6 @@ Project in Data Scientist Nanodegree of Udacity
 
 The libraries used in this study are pandas, numpy, matplotlib, seaborn, math, json, datetime, and sklearn. The code should run with no issues using Python 3.
 
-
 ## Project Motivation<a name="motivation"></a>
 
 This is for the Data Scientist Nanodegree program. 
@@ -80,6 +79,7 @@ Here is the schema and explanation of each variable in the files:
 - value - (dict of strings) - either an offer id or transaction amount depending on the record
 
 ## Conclusions<a name='conclusions'></a>
+
 1. The percentage of offers completed is positively correlated to the age of the customers.
 2. The percentage of offers completed is positively correlated to the income of the customers.
 3. Up until a certain point, the percentage of offers completed is positively correlated to the duration of a customer's membership. However, after approximately 1100 days, the percentage of offers completed has no longer shows any correlation.
